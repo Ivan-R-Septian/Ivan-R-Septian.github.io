@@ -77,10 +77,6 @@
           <div class="col-md-4">
             <p>
               Driven and detail-oriented data enthusiast seeking to transition into a Data Scientist role.
-            </p>
-          </div>
-          <div class="col-md-4">
-            <p>
               Leveraging a solid background in electrical engineering and production supervision to harness data for strategic business insights and innovative solutions.
             </p>
           </div>
@@ -96,7 +92,7 @@
     </section>
     <!--About End-->
     <!--Projects-->
-    <section id="projects">
+    <section id="projects" class="py-5">
       <div class="container">
         <div class="row">
           <div class="col text-center mb-lg-5">
@@ -106,113 +102,119 @@
         <div class="row justify-content-center">
           <div class="col-md-4">
             <div class="card mb-2 link-1">
-              <img src="img/project-4.jpg" class="card-img-top" alt="project-1" onclick="toggleProjects()">
+              <img src="img/nama2.jpg" class="card-img-top" alt="project-1" onclick="toggleProjects('projectDetails1')">
               <div class="card-body">
                 <p class="card-text">
-                  <a style="font-weight: bold; display: block" href="javascript:void(0)" onclick="toggleProjects()">
-                    Data Science Projects
-                  </a>
+                  <a href="javascript:void(0)" onclick="toggleProjects('projectDetails1')" style="font-weight: bold; display: block;">Data Science Projects</a>
                 </p>
                 <!-- Gambar dan Keterangan Proyek -->
-                <div id="projectDetails" style="display: none;">
-                  <div class="project">
-                    <a href="https://github.com/Ivan-R-Septian/Real-Estate-Capstone-Project" target="_blank">
-                      <img src="img/datascience.jpg" class="card-img-top" alt="Gambar Proyek 1"/>
-                      <p>Capstone-1 Real estate project implementing CRUD</p>
-                    </a>
-                  </div>
+                <div id="projectDetails1" style="display: none;">
                   <div class="project">
                     <a href="https://github.com/Ivan-R-Septian/Capstone-2" target="_blank">
-                      <img src="img/Project datascience2.jpg" class="card-img-top" alt="Gambar Proyek 2"/>
+                      <img src="img/Project datascience2.jpg" class="card-img-top" alt="Gambar Proyek 1"/>
                       <p>CAPSTONE-2 EDA AWS SAAS Sales.</p>
                     </a>
                   </div>
                   <div class="project">
                     <a href="https://public.tableau.com/app/profile/ivan.robi.septian/viz/Ivan_RS_Capstone_17180033040240/Dashboard1?publish=yes" target="_blank">
-                      <img src="img/tableau1.jpg" class="card-img-top" alt="Gambar Proyek 1"/>
+                      <img src="img/tableau1.jpg" class="card-img-top" alt="Gambar Proyek 2"/>
                       <p>Capstone-2 Dashboard</p>
                     </a>
                   </div>
                   <div class="project">
                     <a href="https://public.tableau.com/app/profile/ivan.robi.septian/viz/Ivan_RS_Capstone_17180033040240/RealSotry?publish=yes" target="_blank">
-                      <img src="img/tableau2.jpg" class="card-img-top" alt="Gambar Proyek 2"/>
+                      <img src="img/tableau2.jpg" class="card-img-top" alt="Gambar Proyek 1"/>
                       <p>CAPSTONE-2 Tableau Story.</p>
                     </a>
                   </div>
-                  <!-- Tambahkan gambar dan keterangan proyek lain jika diperlukan -->
+                  <div class="project">
+                    <a href="https://github.com/Ivan-R-Septian/Real-Estate-Capstone-Project" target="_blank">
+                      <img src="img/datascience.jpg" class="card-img-top" alt="Gambar Proyek 2"/>
+                      <p>Capstone-1 Real estate project implementing CRUD</p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col-md-4">
+            <div class="card mb-2 link-1">
+              <img src="img/nama1.jpg" class="card-img-top" alt="project-2" onclick="toggleProjects('projectDetails2')">
+              <div class="card-body">
+                <p class="card-text">
+                  <a href="javascript:void(0)" onclick="toggleProjects('projectDetails2')" style="font-weight: bold; display: block;">Data Science Articles</a>
+                </p>
+                <!-- Gambar dan Keterangan Proyek -->
+                <div id="projectDetails2" style="display: none;">
+                  <div class="project">
+                    <a href="https://medium.com/@ivanrseptian/cutting-edge-methods-for-saving-your-computer-from-melting-down-with-large-datasets-in-python-8173ea970c40" target="_blank">
+                      <img src="img/porto3.jpg" class="card-img-top" alt="Gambar Proyek 1"/>
+                      <p>Cutting-Edge Methods for Saving Your Computer from Melting Down with Large Datasets in Python</p>
+                    </a>
+                  </div>
+                  <div class="project">
+                    <a href="https://medium.com/@ivanrseptian/efficient-data-manipulation-with-pandas-maximizing-performance-with-vectorized-operations-7d2ed7145593" target="_blank">
+                      <img src="img/porto2.jpg" class="card-img-top" alt="Gambar Proyek 2"/>
+                      <p>Efficient Data Manipulation with Pandas: Maximizing Performance with Vectorized Operations</p>
+                    </a>
+                  </div>
+                  <div class="project">
+                    <a href="https://medium.com/@ivanrseptian/enhancing-application-integrity-the-art-of-user-input-validation-and-try-except-error-handling-in-613516d3500a" target="_blank">
+                      <img src="img/porto1.jpg" class="card-img-top" alt="Gambar Proyek 1"/>
+                      <p>Enhancing Application Integrity: The Art of User Input Validation and Try-Except Error Handling in Python</p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col-md-4">
+            <div class="card mb-2 link-1">
+              <img src="img/nama3.jpg" class="card-img-top" alt="project-3" onclick="toggleProjects('projectDetails3')">
+              <div class="card-body">
+                <p class="card-text">
+                  <a href="javascript:void(0)" onclick="toggleProjects('projectDetails3')" style="font-weight: bold; display: block;">Electrical Engineering Projects</a>
+                </p>
+                <!-- Gambar dan Keterangan Proyek -->
+                <div id="projectDetails3" style="display: none;">
+                  <div class="project">
+                    <a href="https://github.com/Ivan-Robi-Septian/project-covid19" target="_blank">
+                      <img src="img/Result.jpg" class="card-img-top" alt="Gambar Proyek 1"/>
+                      <p>Design and Analysis of Plasma Corona Discharge Monitoring System to Produce Ozone as Disinfectant</p>
+                    </a>
+                  </div>
+                  <div class="project">
+                    <a href="https://www.youtube.com/watch?v=KbFHDwZqCPw" target="_blank">
+                      <img src="img/PKM-robot-pembersih-sajadah.jpg" class="card-img-top" alt="Gambar Proyek 2"/>
+                      <p>Automatic Prayer Rug Cleaning Robot Integrated by Smartphone via Internet of Things</p>
+                    </a>
+                  </div>
+                  <div class="project">
+                    <a href="https://www.youtube.com/watch?v=H_qM_Yxuooo&t=5s" target="_blank">
+                      <img src="img/PKM-robot-pembersih-pantai.jpg" class="card-img-top" alt="Gambar Proyek 3"/>
+                      <p>Automatic Beach Cleaning Robot with Track Mapping</p>
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        
-        <script>
-          function toggleProjects() {
-            var projectDetails = document.getElementById("projectDetails");
-            if (projectDetails.style.display === "none") {
-              projectDetails.style.display = "block";
-            } else {
-              projectDetails.style.display = "none";
-            }
-          }
-        </script>
-        
-        
-        <script>
-          function toggleProjects() {
-            var projectDetails = document.getElementById("projectDetails");
-            if (projectDetails.style.display === "none") {
-              projectDetails.style.display = "block";
-            } else {
-              projectDetails.style.display = "none";
-            }
-          }
-        </script>
-        
-        
-        
-        
-        
-          <div class="col-md-4">
-            <div class="card mb-2">
-              <a href="https://youtu.be/KbFHDwZqCPw" target="_blank">
-                <img
-                  src="img/PKM-robot-pembersih-sajadah.jpg"
-                  class="card-img-top"
-                  alt="project-2"
-              /></a>
-              <div class="card-body">
-                <p class="card-text">
-                  <a style="font-weight: bold; display: block"
-                    >PKM-KC UNS 2020
-                  </a>
-                  Automatic Prayer Rug Cleaning Robot Integrated by Smartphone
-                  via Internet of Things
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card mb-2">
-              <a
-                href="https://www.youtube.com/watch?v=H_qM_Yxuooo&t=5s"
-                target="_blank"
-              >
-                <img
-                  src="img/PKM-robot-pembersih-pantai.jpg"
-                  class="card-img-top"
-                  alt="project-3"
-              /></a>
-              <div class="card-body">
-                <p class="card-text">
-                  <a style="font-weight: bold; display: block"
-                    >PKM-KC UNS 2020
-                  </a>
-                  Automatic Beach Cleaning Robot with Track Mapping
-                </p>
-              </div>
-            </div>
-          </div>
+      </div>
+    </section>
+    
+    <script>
+      function toggleProjects(id) {
+        var projectDetails = document.getElementById(id);
+        if (projectDetails.style.display === "none" || projectDetails.style.display === "") {
+          projectDetails.style.display = "block";
+        } else {
+          projectDetails.style.display = "none";
+        }
+      }
+    </script>
         </div>
       </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
@@ -245,68 +247,69 @@
               </div>
             </div>
           </div>
-          <div class="row justify-content-center">
-            <div class="col-6">
-              <form name="portfolio-contact-form">
-                <div class="mb-3 text-start">
-                  <label for="name" class="form-label">Name</label>
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="name"
-                    aria-describedby="name"
-                    name="nama"
-                  />
-                </div>
-                <div class="mb-3 text-start">
-                  <label for="email" class="form-label">Email Adress</label>
-                  <input
-                    type="email"
-                    class="form-control"
-                    id="email"
-                    aria-describedby="email"
-                    name="email"
-                  />
-                </div>
-                <div class="mb-3 text-start">
-                  <label for="pesan" class="form-label">Message</label>
-                  <textarea
-                    class="form-control"
-                    id="pesan"
-                    rows="3"
-                    name="pesan"
-                  ></textarea>
-                </div>
-                <div class="mb-1 text-end">
-                  <button type="submit" class="btn btn-primary btn-kirim">
-                    Send
-                  </button>
-                </div>
-                <div class="mb-1 text-end">
-                  <button
-                    class="btn btn-primary btn-loading d-none"
-                    type="button"
-                    disabled
-                  >
-                    <span
-                      class="spinner-border spinner-border-sm"
-                      role="status"
-                      aria-hidden="true"
-                    ></span>
-                    Loading...
-                  </button>
-                </div>
-              </form>
-            </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-6">
+            <form name="portfolio-contact-form">
+              <div class="mb-3 text-start">
+                <label for="name" class="form-label">Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  aria-describedby="name"
+                  name="nama"
+                />
+              </div>
+              <div class="mb-3 text-start">
+                <label for="email" class="form-label">Email Address</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  aria-describedby="email"
+                  name="email"
+                />
+              </div>
+              <div class="mb-3 text-start">
+                <label for="pesan" class="form-label">Message</label>
+                <textarea
+                  class="form-control"
+                  id="pesan"
+                  rows="3"
+                  name="pesan"
+                ></textarea>
+              </div>
+              <div class="mb-1 text-end">
+                <button type="submit" class="btn btn-primary btn-kirim">
+                  Send
+                </button>
+              </div>
+              <div class="mb-1 text-end">
+                <button
+                  class="btn btn-primary btn-loading d-none"
+                  type="button"
+                  disabled
+                >
+                  <span
+                    class="spinner-border spinner-border-sm"
+                    role="status"
+                    aria-hidden="true"
+                  ></span>
+                  Loading...
+                </button>
+              </div>
+            </form>
           </div>
         </div>
       </div>
     </section>
     <!--Contact End-->
-    <!--Fotter-->
+    
+    <!--Footer-->
     <section class="bg-primary mt-3 pt-2 pb-md-2 text-white text-center">
-      <div style="display: block">Created by Ivan Robi Septian</div>
-      <div style="display: inline-block">
+      <div>Created by Ivan Robi Septian</div>
+      <div>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="18"
@@ -319,44 +322,40 @@
             d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"
           />
         </svg>
-        <a href="https://wa.me/6282237327472" target="_blank" class="text-white"
-          >082237327472</a
-        >
+        <a href="https://wa.me/6282237327472" target="_blank" class="text-white">082237327472</a>
       </div>
     </section>
     <!--Footer End-->
+    
     <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script>
-      const scriptURL =
-        "https://script.google.com/macros/s/AKfycbxv0USVceOtQznZgC3xINAsFB4X0vOMxX9bCNtwcH-b86sVsgSkT5o1Gqbc-H24Qeereg/exec";
-      const form = document.forms["portfolio-contact-form"];
-      const btnKirim = document.querySelector(".btn-kirim");
-      const btnLoading = document.querySelector(".btn-loading");
-      const myAlert = document.querySelector(".my-alert");
-
-      form.addEventListener("submit", (e) => {
+      function toggleProjects(id) {
+        const project = document.getElementById(id);
+        if (project) {
+          project.style.display = project.style.display === 'none' ? 'block' : 'none';
+        }
+      }
+    
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbyDk6UrQoYQz1PFxsKS2Jsya0Alzp-MaQtUdsddXDwMMeT4K3eLaXIDc8CB7FGlW5US/exec';
+      const form = document.forms['portfolio-contact-form'];
+      const btnKirim = document.querySelector('.btn-kirim');
+      const btnLoading = document.querySelector('.btn-loading');
+      const myAlert = document.querySelector('.my-alert');
+    
+      form.addEventListener('submit', (e) => {
         e.preventDefault();
-        // ketika tombol submit di klik
-        // tampilkan tombol loading, hilangkan tombol kirim
-        btnLoading.classList.toggle("d-none");
-        btnKirim.classList.toggle("d-none");
-        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+        btnLoading.classList.toggle('d-none');
+        btnKirim.classList.toggle('d-none');
+        fetch(scriptURL, { method: 'POST', body: new FormData(form) })
           .then((response) => {
-            // tampilkan tombol kirim, hilangkan tombol loading
-            btnLoading.classList.toggle("d-none");
-            btnKirim.classList.toggle("d-none");
-            // tampilkan alert
-            myAlert.classList.toggle("d-none");
-            // reset form
+            btnLoading.classList.toggle('d-none');
+            btnKirim.classList.toggle('d-none');
+            myAlert.classList.toggle('d-none');
             form.reset();
-            console.log("Success!", response);
+            console.log('Success!', response);
           })
-          .catch((error) => console.error("Error!", error.message));
+          .catch((error) => console.error('Error!', error.message));
       });
     </script>
   </body>
