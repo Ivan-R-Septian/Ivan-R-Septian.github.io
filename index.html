@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+  <!DOCTYPE html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
@@ -15,7 +15,7 @@
     <!--My CSS-->
     <link rel="stylesheet" href="style.css" />
 
-    <title>Portfolio | Ivan Robi Septian</title>
+    <title>Projects | Ivan Robi Septian</title>
   </head>
   <body id="home">
     <!-- Navbar -->
@@ -55,7 +55,7 @@
         class="rounded-circle img-thumbnail"
       />
       <h1 class="display-4">Ivan Robi Septian</h1>
-      <p class="lead">Electrical Engineer</p>
+      <p class="lead">Data Enthusiast</p>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#ffffff"
@@ -76,14 +76,12 @@
         <div class="row justify-content-center fs-5 text-center">
           <div class="col-md-4">
             <p>
-              Fresh Graduate majoring Electrical Engineering at Sebelas Maret
-              University with internship experience in Hardware Engineer.
+              Driven and detail-oriented data enthusiast seeking to transition into a Data Scientist role.
             </p>
           </div>
           <div class="col-md-4">
             <p>
-              A multipotentiallite person who loves to learn new things. I have
-              passion in Hardware and Electrical Engineering
+              Leveraging a solid background in electrical engineering and production supervision to harness data for strategic business insights and innovative solutions.
             </p>
           </div>
         </div>
@@ -108,23 +106,73 @@
         <div class="row justify-content-center">
           <div class="col-md-4">
             <div class="card mb-2 link-1">
-              <a
-                href="https://github.com/Ivan-Robi-Septian/project-covid19"
-                target="_blank"
-              >
-                <img src="img/Result.jpg" class="card-img-top" alt="project-1"
-              /></a>
+              <img src="img/project-4.jpg" class="card-img-top" alt="project-1" onclick="toggleProjects()">
               <div class="card-body">
                 <p class="card-text">
-                  <a style="font-weight: bold; display: block">
-                    Hardware Engineer Intern</a
-                  >
-                  Design of Ozone Monitoring System Based on Human Machine
-                  Interface for Disinfectant
+                  <a style="font-weight: bold; display: block" href="javascript:void(0)" onclick="toggleProjects()">
+                    Data Science Projects
+                  </a>
                 </p>
+                <!-- Gambar dan Keterangan Proyek -->
+                <div id="projectDetails" style="display: none;">
+                  <div class="project">
+                    <a href="https://github.com/Ivan-R-Septian/Real-Estate-Capstone-Project" target="_blank">
+                      <img src="img/datascience.jpg" class="card-img-top" alt="Gambar Proyek 1"/>
+                      <p>Capstone-1 Real estate project implementing CRUD</p>
+                    </a>
+                  </div>
+                  <div class="project">
+                    <a href="https://github.com/Ivan-R-Septian/Capstone-2" target="_blank">
+                      <img src="img/Project datascience2.jpg" class="card-img-top" alt="Gambar Proyek 2"/>
+                      <p>CAPSTONE-2 EDA AWS SAAS Sales.</p>
+                    </a>
+                  </div>
+                  <div class="project">
+                    <a href="https://public.tableau.com/app/profile/ivan.robi.septian/viz/Ivan_RS_Capstone_17180033040240/Dashboard1?publish=yes" target="_blank">
+                      <img src="img/tableau1.jpg" class="card-img-top" alt="Gambar Proyek 1"/>
+                      <p>Capstone-2 Dashboard</p>
+                    </a>
+                  </div>
+                  <div class="project">
+                    <a href="https://public.tableau.com/app/profile/ivan.robi.septian/viz/Ivan_RS_Capstone_17180033040240/RealSotry?publish=yes" target="_blank">
+                      <img src="img/tableau2.jpg" class="card-img-top" alt="Gambar Proyek 2"/>
+                      <p>CAPSTONE-2 Tableau Story.</p>
+                    </a>
+                  </div>
+                  <!-- Tambahkan gambar dan keterangan proyek lain jika diperlukan -->
+                </div>
               </div>
             </div>
           </div>
+        </div>
+        
+        <script>
+          function toggleProjects() {
+            var projectDetails = document.getElementById("projectDetails");
+            if (projectDetails.style.display === "none") {
+              projectDetails.style.display = "block";
+            } else {
+              projectDetails.style.display = "none";
+            }
+          }
+        </script>
+        
+        
+        <script>
+          function toggleProjects() {
+            var projectDetails = document.getElementById("projectDetails");
+            if (projectDetails.style.display === "none") {
+              projectDetails.style.display = "block";
+            } else {
+              projectDetails.style.display = "none";
+            }
+          }
+        </script>
+        
+        
+        
+        
+        
           <div class="col-md-4">
             <div class="card mb-2">
               <a href="https://youtu.be/KbFHDwZqCPw" target="_blank">
