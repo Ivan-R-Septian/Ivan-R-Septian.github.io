@@ -1,0 +1,262 @@
+  <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <!--My CSS-->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Projects | Ivan Robi Septian</title>
+  </head>
+  <body id="home">
+    <!-- Navbar -->
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-light shadow-sm fixed-top"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Ivan Robi Septian</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            <a class="nav-link" href="#about">About Me</a>
+            <a class="nav-link" href="#projects">Projects</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar -->
+    <!-- Jumbotron-->
+    <section class="jumbotron">
+      <img
+        src="img/Photo_Ivan Robi Septian (2).jpg"
+        alt="Ivan Robi Septian"
+        width="200"
+        class="rounded-circle img-thumbnail"
+      />
+      <h1 class="display-4">Ivan Robi Septian</h1>
+      <p class="lead">Data Enthusiast</p>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#ffffff"
+          fill-opacity="1"
+          d="M0,192L48,181.3C96,171,192,149,288,165.3C384,181,480,235,576,261.3C672,288,768,288,864,256C960,224,1056,160,1152,149.3C1248,139,1344,181,1392,202.7L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!--Jumbotron End-->
+    <!--About-->
+    <section id="about">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>About Me</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center fs-5 text-center">
+          <div class="col-md-4">
+            <p>
+              Driven and detail-oriented data enthusiast seeking to transition into a Data Scientist role.
+              Leveraging a solid background in electrical engineering and production supervision to harness data for strategic business insights and innovative solutions.
+            </p>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#e2edff"
+          fill-opacity="1"
+          d="M0,192L48,170.7C96,149,192,107,288,117.3C384,128,480,192,576,218.7C672,245,768,235,864,197.3C960,160,1056,96,1152,80C1248,64,1344,96,1392,112L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!--About End-->
+    <!--Projects-->
+    <section id="projects" class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center mb-lg-5">
+            <h2>My Projects</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-4">
+            <div class="card mb-2 link-1">
+              <img src="img/nama2.jpg" class="card-img-top" alt="project-1" onclick="toggleProjects('projectDetails1')">
+              <div class="card-body">
+                <p class="card-text">
+                  <a href="javascript:void(0)" onclick="toggleProjects('projectDetails1')" style="font-weight: bold; display: block;">Data Science Projects</a>
+                </p>
+                <div id="projectDetails1" style="display: none;">
+                  <div class="project">
+                    <a href="https://github.com/Ivan-R-Septian/Capstone-2" target="_blank">
+                      <img src="img/Project datascience2.jpg" class="card-img-top" alt="Gambar Proyek 1"/>
+                      <p>CAPSTONE-2 EDA AWS SAAS Sales</p>
+                    </a>
+                  </div>
+                  <div class="project">
+                    <a href="https://public.tableau.com/app/profile/ivan.robi.septian/viz/Ivan_RS_Capstone_17180033040240/Dashboard1?publish=yes" target="_blank">
+                      <img src="img/tableau1.jpg" class="card-img-top" alt="Gambar Proyek 2"/>
+                      <p>Capstone-2 Dashboard</p>
+                    </a>
+                  </div>
+                  <div class="project">
+                    <a href="https://public.tableau.com/app/profile/ivan.robi.septian/viz/Ivan_RS_Capstone_17180033040240/RealSotry?publish=yes" target="_blank">
+                      <img src="img/tableau2.jpg" class="card-img-top" alt="Gambar Proyek 3"/>
+                      <p>CAPSTONE-2 Tableau Story</p>
+                    </a>
+                  </div>
+                  <div class="project">
+                    <a href="https://github.com/Ivan-R-Septian/Real-Estate-Capstone-Project" target="_blank">
+                      <img src="img/datascience.jpg" class="card-img-top" alt="Gambar Proyek 4"/>
+                      <p>Capstone-1 Real estate project implementing CRUD</p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+          <div class="col-md-4">
+            <div class="card mb-2 link-1">
+              <img src="img/nama1.jpg" class="card-img-top" alt="project-2" onclick="toggleProjects('projectDetails2')">
+              <div class="card-body">
+                <p class="card-text">
+                  <a href="javascript:void(0)" onclick="toggleProjects('projectDetails2')" style="font-weight: bold; display: block;">Data Science Articles</a>
+                </p>
+                <div id="projectDetails2" style="display: none;">
+                  <div class="project">
+                    <a href="https://medium.com/@ivanrseptian/cutting-edge-methods-for-saving-your-computer-from-melting-down-with-large-datasets-in-python-8173ea970c40" target="_blank">
+                      <img src="img/porto3.jpg" class="card-img-top" alt="Gambar Proyek 1"/>
+                      <p>Cutting-Edge Methods for Saving Your Computer from Melting Down with Large Datasets in Python</p>
+                    </a>
+                  </div>
+                  <div class="project">
+                    <a href="https://medium.com/@ivanrseptian/efficient-data-manipulation-with-pandas-maximizing-performance-with-vectorized-operations-7d2ed7145593" target="_blank">
+                      <img src="img/porto2.jpg" class="card-img-top" alt="Gambar Proyek 2"/>
+                      <p>Efficient Data Manipulation with Pandas: Maximizing Performance with Vectorized Operations</p>
+                    </a>
+                  </div>
+                  <div class="project">
+                    <a href="https://medium.com/@ivanrseptian/enhancing-application-integrity-the-art-of-user-input-validation-and-try-except-error-handling-in-613516d3500a" target="_blank">
+                      <img src="img/porto1.jpg" class="card-img-top" alt="Gambar Proyek 3"/>
+                      <p>Enhancing Application Integrity: The Art of User Input Validation and Try-Except Error Handling in Python</p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+          <div class="col-md-4">
+            <div class="card mb-2 link-1">
+              <img src="img/nama3.jpg" class="card-img-top" alt="project-3" onclick="toggleProjects('projectDetails3')">
+              <div class="card-body">
+                <p class="card-text">
+                  <a href="javascript:void(0)" onclick="toggleProjects('projectDetails3')" style="font-weight: bold; display: block;">Electrical Engineering Projects</a>
+                </p>
+                <div id="projectDetails3" style="display: none;">
+                  <div class="project">
+                    <a href="https://github.com/Ivan-Robi-Septian/project-covid19" target="_blank">
+                      <img src="img/Result.jpg" class="card-img-top" alt="Gambar Proyek 1"/>
+                      <p>Design and Analysis of Plasma Corona Discharge Monitoring System to Produce Ozone as Disinfectant</p>
+                    </a>
+                  </div>
+                  <div class="project">
+                    <a href="https://www.youtube.com/watch?v=KbFHDwZqCPw" target="_blank">
+                      <img src="img/PKM-robot-pembersih-sajadah.jpg" class="card-img-top" alt="Gambar Proyek 2"/>
+                      <p>Automatic Prayer Rug Cleaning Robot Integrated by Smartphone via Internet of Things</p>
+                    </a>
+                  </div>
+                  <div class="project">
+                    <a href="https://www.youtube.com/watch?v=H_qM_Yxuooo&t=5s" target="_blank">
+                      <img src="img/PKM-robot-pembersih-pantai.jpg" class="card-img-top" alt="Gambar Proyek 3"/>
+                      <p>Automatic Beach Cleaning Robot with Track Mapping</p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+          <div class="col-md-4">
+            <div class="card mb-2 link-1">
+              <a href="https://drive.google.com/drive/folders/1lpVPgzf_npiNVlzQk2wNNI90JumfqDyy?usp=drive_link" target="_blank">
+                <img src="img/nama4.jpg" class="card-img-top" alt="project-4">
+                <div class="card-body">
+                  <p class="card-text" style="font-weight: bold; display: block;">Achievement and Certificate</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <script>
+          function toggleProjects(id) {
+            var projectDetails = document.getElementById(id);
+            if (projectDetails.style.display === "none" || projectDetails.style.display === "") {
+              projectDetails.style.display = "block";
+            } else {
+              projectDetails.style.display = "none";
+            }
+          }
+        </script>
+        
+    </script>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#ffffff"
+          fill-opacity="1"
+          d="M0,256L26.7,245.3C53.3,235,107,213,160,181.3C213.3,149,267,107,320,122.7C373.3,139,427,213,480,234.7C533.3,256,587,224,640,229.3C693.3,235,747,277,800,293.3C853.3,309,907,299,960,261.3C1013.3,224,1067,160,1120,138.7C1173.3,117,1227,139,1280,165.3C1333.3,192,1387,224,1413,240L1440,256L1440,320L1413.3,320C1386.7,320,1333,320,1280,320C1226.7,320,1173,320,1120,320C1066.7,320,1013,320,960,320C906.7,320,853,320,800,320C746.7,320,693,320,640,320C586.7,320,533,320,480,320C426.7,320,373,320,320,320C266.7,320,213,320,160,320C106.7,320,53,320,27,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!--Projects End-->
+    <!--Contact-->
+    <section class="bg-primary mt-3 pt-2 pb-md-2 text-white text-center">
+      <div>Created by Ivan Robi Septian</div>
+      <div>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="18"
+          height="18"
+          fill="currentColor"
+          class="bi bi-whatsapp"
+          viewBox="0 0 16 16"
+        >
+          <!-- SVG path for WhatsApp icon -->
+        </svg>
+        <a href="https://wa.me/6282237327472" target="_blank" class="text-white">082237327472</a>
+        <!-- Tambahkan link email dan LinkedIn di sini -->
+        <a href="mailto:ivanrseptian@gmail.com" class="text-white mx-3">ivanrseptian@gmail.com</a>
+        <a href="https://www.linkedin.com/in/ivanrobiseptian/" target="_blank" class="text-white">LinkedIn</a>
+      </div>
+    </section>
+    <!--Footer End-->
+  
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!-- Your existing JavaScript code -->
+  </body>
+</html>
